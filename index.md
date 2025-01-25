@@ -1,5 +1,3 @@
-{% highlight ruby %}
-def foo
-  puts 'foo'
-end
-{% endhighlight %}
+```javascript
+console.log('hello, world')
+```
