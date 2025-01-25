@@ -1,24 +1,9 @@
 ---
 layout: default
-title: Highlighting Example
 ---
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Code Highlighting</title>
-</head>
-<body>
-  <h1>Code Highlighting in HTML with Jekyll</h1>
-  <p>Here is some highlighted JavaScript code:</p>
+<h1>Code Highlighting in HTML with Jekyll</h1>
+<p>Here is some highlighted JavaScript code:</p>
 
-  {% highlight javascript %}
-  function greet(name) {
-    console.log(`Hello, ${name}!`);
-  }
-  greet('World');
-  {% endhighlight %}
-</body>
-</html>
+{% highlight javascript %} function greet(name) { console.log(`Hello,
+${name}!`); } greet('World'); {% endhighlight %}
