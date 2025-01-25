@@ -1,5 +1,5 @@
-```ruby
-require 'redcarpet'
-markdown = Redcarpet.new("Hello World!")
-puts markdown.to_html
-```
+{% highlight ruby %}
+def foo
+  puts 'foo'
+end
+{% endhighlight %}
