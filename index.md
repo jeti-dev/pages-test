@@ -3,6 +3,6 @@ layout: default
 title: Home
 ---
 
-<h1>{{ "Hello World!" | downcase }}</h1>
+# {{ "Hello World!" | downcase }}
 
 {% highlight ruby %} def foo puts 'foo' end {% endhighlight %}
