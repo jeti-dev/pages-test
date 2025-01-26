@@ -1,10 +1,6 @@
 ---
-layout: main
+layout: default
 title: Home
 ---
 
-<h1>Code Highlighting in HTML with Jekyll</h1>
-<p>Here is some highlighted JavaScript code:</p>
-
-{% highlight javascript %} function greet(name) { console.log(`Hello,
-${name}!`); } greet('World'); {% endhighlight %}
+<h1>{{ "Hello World!" | downcase }}</h1>
