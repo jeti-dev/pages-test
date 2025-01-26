@@ -1,10 +1,14 @@
 ---
-title: Home
 layout: main
+title: Home
 ---
 
 <h1>{{ "Hello World!" | downcase }}</h1>
 
 <p>{% highlight ruby %} def foo puts 'foo' end {% endhighlight %}</p>
+
+<p>
+  {% highlight javascript %} {% raw %} console.log('whaats') {% endraw %} {% endhighlight %}
+</p>
 
 <p>```javascript console.log('yolo') ```</p>
